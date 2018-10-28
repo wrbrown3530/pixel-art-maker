@@ -1,0 +1,63 @@
+html,body{
+height:100%;
+width:100%;
+}
+
+.board{
+  height:80%;
+  margin: 0 auto;
+  width: 80%;
+  text-align:center;
+  border-style:ridge;
+}
+
+.boardDiv{
+  text-align:center;
+  border-style:ridge;
+  width:20%
+  margin: 0 auto;
+}
+
+.color-pallate{
+  text-align:center;
+  margin: 0 auto;
+  border-style:ridge;
+  width:30%;
+  height:30;
+}
+
+.colorPicker{
+  text-align:center;
+}
+
+#red{
+  background-color:red;
+  border-style: ridge;
+
+}
+
+#black{
+  background-color:black;
+  border-style: ridge;
+
+}
+#orange{
+  background-color:orange;
+  border-style: ridge;
+
+}
+#green{
+  background-color:green;
+  border-style: ridge;
+
+}
+#blue{
+  background-color:blue;
+  border-style: ridge;
+
+}
+#purple{
+  background-color:purple;
+  border-style: ridge;
+
+}
