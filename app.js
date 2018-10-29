@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
   let currentColor = "red"
-  let cell = document.querySelector(".boardDiv")
+  let cells = document.querySelectorAll(".boardDiv")
   let board = document.querySelector('.board')
 
 
@@ -9,30 +9,12 @@ document.addEventListener('DOMContentLoaded', function() {
   for (let color of colors) {
     color.addEventListener("click", function() {
       currentColor = color.id
+
     })
   }
 
-
-  cell1.addEventListener("click", function(event) {
-    cell1.style.backgroundColor = currentColor
-    console.log(currentColor)
+  board.addEventListener("click", function(){
+    event.target.style.backgroundColor= currentColor
   })
-
-  cell2.addEventListener("click", function(event) {
-    cell2.style.backgroundColor = currentColor
-    console.log(currentColor)
-  })
-
-  cell3.addEventListener("click", function(event) {
-    cell3.style.backgroundColor = currentColor
-    console.log(currentColor)
-  })
-
-  cell4.addEventListener("click", function(event) {
-    cell4.style.backgroundColor = currentColor
-    console.log(currentColor)
-  })
-
-
 
 })
